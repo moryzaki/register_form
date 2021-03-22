@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>websima</title>
+    <link rel="stylesheet" href="./css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./styles/style sheet.css">
+</head>
+
+<body>
+    <div style="background-color: rgb(113, 37, 211); padding: 30px 10px; margin-bottom: 50px;">
+        <div class="text-center text-white">
+            <h2> ثبت نام در سایت</h2>
+            <p> به خانواده 11,398 نفری وبسیما خوش امدید. </p>
+        </div>
+    </div>
+    <section style="box-sizing: inherit; font-size: 14px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 mx-auto">
+                    <div class="">
+                        <form action="register" class="row">
+                            <div class="col-12 col-md-6 tml-row ">
+                                <label for="name" class="mb-2">نام</label>
+                                <input type="text" id="name" placeholder="امین" name="name"
+                                    class="font-size-md form-control mb-3">
+                            </div>
+                            <div class="col-12 col-md-6 tml-row leflabel leftinput ">
+                                <label for="enname" class="mb-2">Name</label>
+                                <input type="text" id="enname" placeholder="Amin" name="enname"
+                                    class="tml-input form-control mb-3">
+                            </div>
+                            <div class="col-12 col-md-6  tml-row">
+                                <label for="family" class="mb-2">نام خانوادگی</label>
+                                <input type="text" id="family" placeholder="اسماعیلی" name="family"
+                                    class="tml-input form-control mb-3">
+                            </div>
+                            <div class="col-12 col-md-6  tml-row leflabel leftinput">
+                                <label for="enfamily" class="mb-2">Family</label>
+                                <input type="text" id="enfamily" placeholder="Esmaeili" name="enfamily"
+                                    class="tml-input form-control mb-3">
+                            </div>
+                            <div class="col-12 col-md-12 tml-row leftinput">
+                                <label for="email" class="mb-2 d-block">ایمیل</label>
+                                <span class="register-footer">ایمیل شما برای ارسال رسید ثبت نام و اطلاع رسانی برگزاری
+                                    کارگاه استفاده خواهد شد.</span>
+                                <input id="email" type="email" name="email" class="tml-input form-control mb-3">
+                            </div>
+                            <div class="col-12 col-md-12 tml-row leftinput">
+                                <label for="mobile" class="mb-2 d-block">شماره موبایل</label>
+                                <span class="register-footer">پیامک تایید هویت به همین شماره برای شما ارسال
+                                    میگردد.</span>
+                                <input id="mobile" type="text" name="mobile" class="tml-input form-control mb-3">
+                            </div>
+                            <div class="col-12 col-md-6 tml-row leftinput">
+                                <label for="password" class="mb-2">رمز عبور</label>
+                                <input id="password" type="password" name="password"
+                                    class="tml-input form-control mb-3">
+                            </div>
+                            <div class="col-12 col-md-6 tml-row leftinput">
+                                <label for="passwordr" class="mb-2">تکرار رمز عبور</label>
+                                <input id="passwordr" type="password" name="passwordr"
+                                    class="tml-input form-control mb-3">
+                            </div>
+                            <div class="col-12 col-md-6 tml-row">
+                                <label for="meeting" class="mb-2 d-block">نحوه آشنایی</label>
+                                <span class="register-footer"> از چه طریقی با آکادمی وبسیماآشنا شدید؟</span>
+                                <i class="selecti zmdi zmdi-chevron-down"></i>
+
+                                <select id="meeting" name="meeting" class="tml-input form-control mb-3">
+                                    <option value="unknown">انتخاب کنید</option>
+                                    <option value="websima">شناخت قبلی از وبسیما</option>
+                                    <option value="seo">جستجو در اینترنت</option>
+                                    <option value="insta">اینستاگرام یا تلگرام</option>
+                                    <option value="linkedin">لینکدین</option>
+                                    <option value="friends">معرفی دوستان</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-6 tml-row">
+                                <label for="reason" class="mb-2 d-block">دلیل ثبت نام</label>
+                                <span class="register-footer">مهمترین دلیل شما برای عضویت در سایت چیست؟</span>
+                                <i class="selecti zmdi zmdi-chevron-down"></i>
+                                <select id="reason" name="reason" class="tml-input form-control mb-3">
+                                    <option value="unknown">انتخاب کنید</option>
+                                    <option value="course">شرکت در دوره های آموزشی</option>
+                                    <option value="book">دانلود کتاب</option>
+                                    <option value="comment">ارسال دیدگاه یا طرح سوال</option>
+                                    <option value="quiz">شرکت در آزمون سئو</option>
+                                    <option value="newsletter">اطلاع از اخبار آکادمی</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-12 tml-row-send mt-4">
+                                <button class="btn-efect-sending" type="submit">ثبت نام</button>
+                                <a href="https://websima.academy/login/" class="effect-btn-url"><i
+                                        class="zmdi zmdi-sign-in"></i>ورود به حساب کاربری</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.rtlcss.com/bootstrap/v4.0.0/js/bootstrap.min.js"
+        integrity="sha384-54+cucJ4QbVb99v8dcttx/0JRx4FHMmhOWi4W+xrXpKcsKQodCBwAvu3xxkZAwsH"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

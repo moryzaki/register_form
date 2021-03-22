@@ -1,0 +1,19 @@
+.register-footer
+{
+    color: rgb(113, 37, 211);
+    font-size: small;
+    display: block;
+    margin-top: 10px;
+    font-family:sans-serif
+}
+.btn-efect-sending
+{
+    background: -webkit-linear-gradient(left, #551bf8 0%, #04c4c9 100%);
+    background: linear-gradient(to right, #551bf8 0%, #04c4c9 100%);
+    float: left;
+    border: 1px;
+    border-radius: 30px;
+    color: white;
+    padding: 5px 30px 7px 30px;
+    position: relative;
+}
