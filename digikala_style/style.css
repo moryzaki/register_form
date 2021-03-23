@@ -16,8 +16,6 @@
     width: 380px;
     position: absolute;
     display: block;
-    top: 50%;
-    right: 50%; 
 }
 .login-form 
 {
@@ -50,4 +48,67 @@
     font-size: 20px;
     font-size: 1.429rem;
     line-height: 50px;
+}
+.c-login__form-row {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.c-login__form-row {
+    margin-bottom: 16px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: relative;
+}
+.o-btn--contained-red-lg 
+{
+    padding: 13px 16px;
+    direction: rtl;
+    font-size: 1rem;
+    line-height: 1.571;
+    font-weight: 700;
+    background-color: #ef394e;
+    color: #fff;
+    border: 1px solid #ef394e;
+    border-radius: 5px;
+}
+.o-form__field-container 
+{
+    text-align: right;
+    width: 100%;
+}
+.o-form__field 
+{
+    padding: 9px 12px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #e0e0e2;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 24px;
+    width: 100%;
+    color: #030a16;
+}
+.c-login__footer {
+    text-align: center;
+    color: #62666d;
+    font-size: .714rem;
+    line-height: 25px;
+}
+.c-login__footer a {
+    position: relative;
+    color:blue;
+    text-decoration: none;
+    padding-bottom: 4px;
+}
+.c-login__opt-mobile-message {
+    font-size: .857rem;
+    line-height: 21px;
+    color: #62666d;
+    margin-bottom: 16px;
 }
